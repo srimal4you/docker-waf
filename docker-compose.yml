@@ -3,6 +3,6 @@ services:
     waf:
         build: waf
         ports:
-            - "80:80"
+            - "8080:80"
     app:
         build: app
